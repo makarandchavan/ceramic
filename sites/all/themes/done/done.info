@@ -1,0 +1,87 @@
+name = 'Done'
+description = 'This is one of the best, most attractive and smartest templates on the market'
+package = 'Core'
+version = 'VERSION'
+core = '7.x'
+screenshot = 'screenshot.png'
+
+
+
+
+;css
+
+stylesheets[all][] = font/font-style.css
+stylesheets[all][] = vendor/waves/waves.css
+stylesheets[all][] = vendor/slick/slick.css
+stylesheets[all][] = vendor/slick/slick-theme.css
+stylesheets[all][] = vendor/bootstrap-select/bootstrap-select.css
+stylesheets[all][] = vendor/nouislider/nouislider.css
+stylesheets[all][] = vendor/parallax-carousel/pcarousel.min.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/style-colors.css
+stylesheets[all][] = css/toolspanel.css
+stylesheets[all][] = vendor/rs-plugin/css/settings.css
+
+stylesheets[all][] = css/update.css
+
+
+;js
+
+scripts[] = vendor/modernizr/modernizr.js
+scripts[] = vendor/bootstrap/bootstrap.min.js
+scripts[] = vendor/waves/waves.min.js
+scripts[] = vendor/slick/slick.min.js
+scripts[] = vendor/bootstrap-select/bootstrap-select.min.js
+scripts[] = vendor/parallax/jquery.parallax-1.1.3.js
+scripts[] = vendor/waypoints/jquery.waypoints.min.js
+scripts[] = vendor/waypoints/sticky.min.js
+scripts[] = vendor/doubletaptogo/doubletaptogo.js
+scripts[] = vendor/elevatezoom/jquery.elevatezoom.js
+scripts[] = vendor/isotope/isotope.pkgd.min.js
+scripts[] = vendor/imagesloaded/imagesloaded.pkgd.min.js
+scripts[] = vendor/nouislider/nouislider.min.js
+scripts[] = vendor/mousewheel/jquery.mousewheel.min.js
+scripts[] = vendor/magnific-popup/jquery.magnific-popup.min.js
+scripts[] = vendor/countdown/jquery.plugin.min.js
+scripts[] = vendor/countdown/jquery.countdown.min.js
+scripts[] = vendor/form/jquery.form.js
+scripts[] = vendor/form/jquery.validate.min.js
+scripts[] = js/custom.js
+scripts[] = js/custom-layout1.js
+scripts[] = js/custom-layout2.js
+scripts[] = js/custom-layout3.js
+scripts[] = js/custom-layout4.js
+scripts[] = js/custom-layout5.js
+scripts[] = js/custom-layout6.js
+scripts[] = js/custom-layout7.js
+scripts[] = js/custom-layout8.js
+
+scripts[] = js/toolspanel.js
+scripts[] = vendor/rs-plugin/js/jquery.themepunch.tools.min.js
+scripts[] = vendor/rs-plugin/js/jquery.themepunch.revolution.min.js
+scripts[] = js/jssor.slider.mini.js
+scripts[] = vendor/parallax-carousel/pcarousel-plugin.min.js
+scripts[] = vendor/parallax-carousel/pcarousel-init.min.js
+scripts[] = js/landing-banners.js
+scripts[] = js/update.js
+
+
+;regions
+regions[search] = 'Header search'
+regions[content] = 'Main content'
+regions[top_menu] = 'Top menu'
+regions[main_menu] = 'Main menu'
+regions[top_right_bar] = 'Top right bar'
+regions[slider] = 'Slider'
+regions[section_with_sidebar] = 'Section with sidebar'
+regions[sidebar] = 'Sidebar'
+regions[sidebar_listing_product] = 'Products listing sidebar'
+regions[section] = 'Section content'
+regions[footer_top_bar] = 'Footer top bar'
+regions[footer_column_1] = 'Footer column 1'
+regions[footer_column_2] = 'Footer column 2'
+regions[footer_column_3] = 'Footer column 3'
+regions[footer_column_4] = 'Footer column 4'
+regions[footer_column_5] = 'Footer column 5'
+regions[footer__subscribe] = 'Footer subscribe'
+

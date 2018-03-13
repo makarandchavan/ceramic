@@ -1,0 +1,158 @@
+[10-Jan-2018 23:01:19 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:01:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:01:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:01:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:01:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:01:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:01:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:01:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:01:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:03:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function ctools_include() in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc:453
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc(461): file_type_load_all()
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.module(917): file_type_get_enabled_types()
+#2 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): file_entity_entity_info_alter(Array, NULL, NULL, NULL)
+#3 /home/cmakib3e/public_html/ceramickart/includes/common.inc(8027): drupal_alter('entity_info', Array)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/field_group/field_group.module(187): entity_get_info()
+#5 /home/cmakib3e/public_html/ceramickart/includes/module.inc(1163): field_group_theme_registry_alter(Array, NULL, NULL, NULL)
+#6 /home/cmakib3e/public_html/ceramickart/includes/theme.inc(716): drupal_alter('theme_registry', Array)
+#7 /home/cmakib3e/public in /home/cmakib3e/public_html/ceramickart/sites/all/modules/file_entity/file_entity.file_api.inc on line 453
+[10-Jan-2018 23:20:25 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[10-Jan-2018 23:20:33 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[10-Jan-2018 23:21:12 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[10-Jan-2018 23:21:13 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[10-Jan-2018 23:21:13 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[10-Jan-2018 23:22:56 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[10-Jan-2018 23:22:59 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[10-Jan-2018 23:23:04 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[10-Jan-2018 23:23:07 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[11-Jan-2018 00:21:54 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[11-Jan-2018 00:23:57 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce/modules/cart/commerce_cart.module on line 1342
+[11-Jan-2018 00:34:37 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to SelectQuery::fields() must be of the type array, null given, called in /home/cmakib3e/public_html/ceramickart/includes/entity.inc on line 317 and defined in /home/cmakib3e/public_html/ceramickart/includes/database/select.inc:1316
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/includes/entity.inc(317): SelectQuery->fields('base', NULL)
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/entity/includes/entity.controller.inc(170): DrupalDefaultEntityController->buildQuery(Array, Array, false)
+#2 /home/cmakib3e/public_html/ceramickart/sites/all/modules/entity/includes/entity.controller.inc(713): EntityAPIController->buildQuery(Array, Array, false)
+#3 /home/cmakib3e/public_html/ceramickart/sites/all/modules/rules/includes/rules.core.inc(232): EntityAPIControllerExportable->buildQuery(false, Array, false)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/entity/includes/entity.controller.inc(186): RulesEntityController->buildQuery(false, Array, fal in /home/cmakib3e/public_html/ceramickart/includes/database/select.inc on line 1316
+[11-Jan-2018 00:36:48 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to SelectQuery::fields() must be of the type array, null given, called in /home/cmakib3e/public_html/ceramickart/includes/entity.inc on line 317 and defined in /home/cmakib3e/public_html/ceramickart/includes/database/select.inc:1316
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/includes/entity.inc(317): SelectQuery->fields('base', NULL)
+#1 /home/cmakib3e/public_html/ceramickart/sites/all/modules/entity/includes/entity.controller.inc(170): DrupalDefaultEntityController->buildQuery(Array, Array, false)
+#2 /home/cmakib3e/public_html/ceramickart/sites/all/modules/entity/includes/entity.controller.inc(713): EntityAPIController->buildQuery(Array, Array, false)
+#3 /home/cmakib3e/public_html/ceramickart/sites/all/modules/rules/includes/rules.core.inc(232): EntityAPIControllerExportable->buildQuery(false, Array, false)
+#4 /home/cmakib3e/public_html/ceramickart/sites/all/modules/entity/includes/entity.controller.inc(186): RulesEntityController->buildQuery(false, Array, fal in /home/cmakib3e/public_html/ceramickart/includes/database/select.inc on line 1316
+[13-Jan-2018 13:09:01 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_usage_get_usage_by_mail() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.module:1073) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_usage/commerce_discount_usage.module on line 73
+[13-Jan-2018 13:10:32 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_usage_get_usage_by_mail() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.module:1073) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_usage/commerce_discount_usage.module on line 73
+[13-Jan-2018 13:11:53 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_usage_get_usage_by_mail() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.module:1073) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_usage/commerce_discount_usage.module on line 73
+[13-Jan-2018 13:13:57 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_date_condition() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.rules.inc:1582) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_date/commerce_discount_date.rules.inc on line 40
+[13-Jan-2018 13:14:03 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_date_condition() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.rules.inc:1582) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_date/commerce_discount_date.rules.inc on line 40
+[13-Jan-2018 13:14:10 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_date_condition() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.rules.inc:1582) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_date/commerce_discount_date.rules.inc on line 40
+[13-Jan-2018 13:55:31 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_date_condition() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.rules.inc:1582) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_date/commerce_discount_date.rules.inc on line 40
+[13-Jan-2018 13:55:32 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_date_condition() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.rules.inc:1582) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_date/commerce_discount_date.rules.inc on line 40
+[13-Jan-2018 13:55:52 Asia/Kolkata] PHP Fatal error:  Cannot redeclare commerce_discount_date_condition() (previously declared in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/commerce_discount.rules.inc:1582) in /home/cmakib3e/public_html/ceramickart/sites/all/modules/commerce_discount/modules/commerce_discount_date/commerce_discount_date.rules.inc on line 40
+[15-Jan-2018 08:45:58 Asia/Kolkata] PHP Fatal error:  Uncaught DatabaseTransactionCommitFailedException in /home/cmakib3e/public_html/ceramickart/includes/database/mysql/database.inc:184
+Stack trace:
+#0 /home/cmakib3e/public_html/ceramickart/includes/database/database.inc(1154): DatabaseConnection_mysql->popCommittableTransactions()
+#1 /home/cmakib3e/public_html/ceramickart/includes/database/database.inc(1964): DatabaseConnection->popTransaction('drupal_transact...')
+#2 [internal function]: DatabaseTransaction->__destruct()
+#3 {main}
+  thrown in /home/cmakib3e/public_html/ceramickart/includes/database/mysql/database.inc on line 184
+[15-Jan-2018 08:45:58 Asia/Kolkata] PHP Notice:  Undefined offset: 0 in /home/cmakib3e/public_html/ceramickart/includes/errors.inc on line 280
+[15-Jan-2018 08:45:58 Asia/Kolkata] PHP Notice:  Undefined index: file in /home/cmakib3e/public_html/ceramickart/includes/errors.inc on line 72
+[15-Jan-2018 08:45:58 Asia/Kolkata] PHP Notice:  Undefined index: line in /home/cmakib3e/public_html/ceramickart/includes/errors.inc on line 73
+[01-Feb-2018 14:54:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ']' in /home/cmakib3e/public_html/ceramickart/sites/all/themes/done/templates/page--view.tpl.php on line 5
+[13-Feb-2018 18:27:42 Asia/Kolkata] PHP Fatal error:  Cannot use object of type view as array in /home/cmakib3e/public_html/ceramickart/sites/all/themes/done/template.php on line 892
+[13-Feb-2018 18:37:55 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/cmakib3e/public_html/ceramickart/includes/common.inc on line 6141
+[13-Feb-2018 18:40:34 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/cmakib3e/public_html/ceramickart/includes/common.inc on line 6141
+[13-Feb-2018 18:48:04 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cmakib3e/public_html/ceramickart/includes/database/query.inc on line 1829
+[13-Feb-2018 18:48:18 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cmakib3e/public_html/ceramickart/includes/database/database.inc on line 462
+[13-Feb-2018 18:48:52 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cmakib3e/public_html/ceramickart/includes/database/query.inc on line 1865
+[13-Feb-2018 18:49:46 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32 bytes) in /home/cmakib3e/public_html/ceramickart/includes/database/select.inc on line 1460
+[09-Mar-2018 21:20:01 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/cmakib3e/public_html/ceramickart/includes/database/query.inc on line 876
+[10-Mar-2018 16:35:01 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/cmakib3e/public_html/ceramickart/includes/database/database.inc on line 2227
+[11-Mar-2018 11:30:53 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/cmakib3e/public_html/ceramickart/includes/database/database.inc on line 2227
+[11-Mar-2018 23:41:32 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/cmakib3e/public_html/ceramickart/includes/database/query.inc on line 892
+[12-Mar-2018 11:50:43 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/cmakib3e/public_html/ceramickart/includes/cache.inc on line 488
+[13-Mar-2018 11:54:17 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/cmakib3e/public_html/ceramickart/includes/cache.inc on line 367

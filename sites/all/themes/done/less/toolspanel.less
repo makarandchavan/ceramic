@@ -1,0 +1,167 @@
+#tools ul {
+  margin-top: 80px;
+}
+
+#tools li {
+  list-style: none;
+  padding: 8px;
+}
+
+#tools .box-out {
+//  background: #2b383e;
+//  color: #fff;
+  height: 340px;
+  width: 300px;
+  padding: 12px 24px;
+  position: fixed;
+  z-index: 10002;
+  top: 60px;
+  left: 0px; 
+  margin: 0;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  -ms-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+ }
+#tools .box-out, #tools .box-out a {
+//  color: #fff;
+}
+#tools .box-in {
+  margin: 0 0 0 -300px;
+}
+
+#tools .menu-btn {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  background-size: cover;
+  cursor: pointer;
+  padding: 2px 0 0 0 !important;
+  border-radius: 0 3px 3px 0;
+}
+#tools .box-out:not(.box-in) .menu-btn .icon.icon-gear:before {
+    content: "✕";
+    vertical-align: text-top;
+	line-height: 22px;
+}
+#tools h6 {
+	display: inline-block;
+	float: left;
+	line-height: 25px;
+	padding: 0 0 0 70px;
+}
+#tools h4 {
+	padding: 20px 0 15px 0;
+}
+.tgl{
+	display: none;
+	// add default box-sizing for this scope
+	&, &:after, &:before,
+	& *, & *:after, & *:before,
+	& + .tgl-btn{
+		box-sizing: border-box;
+		&::selection{
+			background: none;
+		}
+	}
+	+ .tgl-btn{
+		outline: 0;
+		display: block;
+		width: 4em;
+		height: 2em;
+		position: relative;
+		cursor: pointer;
+     user-select: none;
+		&:after, &:before{
+			position: relative;
+			display: block;
+			content: "";
+			width: 50%;
+			height: 100%;
+		}
+		&:after{
+			left: 0;
+		}
+		&:before{
+			display: none;
+		}
+	}
+	&.checked{
+		+ .tgl-btn{
+			&:after{
+				left: 50%;
+			}
+		}
+	}
+}
+
+// toggles
+.tgl{
+	display: none;
+	// add default box-sizing for this scope
+	&, &:after, &:before,
+	& *, & *:after, & *:before,
+	& + .tgl-btn{
+		box-sizing: border-box;
+		&::selection{
+			background: none;
+		}
+	}
+	+ .tgl-btn{
+		outline: 0;
+		display: block;
+		width: 50px;
+		height: 25px;
+		position: relative;
+		cursor: pointer;
+     user-select: none;
+		&:after, &:before{
+			position: relative;
+			display: block;
+			content: "";
+			width: 50%;
+			height: 100%;
+		}
+		&:after{
+			left: 0;
+		}
+		&:before{
+			display: none;
+		}
+	}
+	&.checked{
+		+ .tgl-btn{
+			&:after{
+				left: 50%;
+			}
+		}
+	}
+}
+
+.tgl{
+	+ .tgl-btn{
+		background: #f0f0f0;
+		border-radius: 2em;
+		padding: 2px;
+		transition: all .4s ease;
+		&:after{
+			border-radius: 50%;
+//			background: #fff;
+			transition: all .2s ease;
+		}
+	}
+//	&.checked{
+//		+ .tgl-btn{
+//			background: @custom-color;
+//		}
+//	}
+}

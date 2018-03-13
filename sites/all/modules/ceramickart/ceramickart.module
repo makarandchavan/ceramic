@@ -1,0 +1,62 @@
+<?php
+
+/**
+ * @file
+ *  Implements CeramicKart functionality.
+ */
+
+/**
+ * Implements hook_init().
+ */
+function ceramickart_init() {
+  if(!empty($_GET['loc'])) {
+    $_SESSION['selected_loc'] = filter_xss($_GET['loc']);
+  }
+} // end of hook_init
+
+
+/**
+ * Implements hook_block_info().
+ */
+function ceramickart_block_info() {
+  $blocks = array();
+  $blocks['location_changer'] = array(
+    'info' => t('Location Changer'),
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function ceramickart_block_view($delta='') {
+  $block = array();
+
+  switch($delta) {
+    case 'location_changer' :
+      $block['content'] = ceramickart_location_changer();
+      break;
+  }
+
+  return $block;
+}
+
+function ceramickart_location_changer() {
+  $output = '<span class="location-changer-title">Location: </span><select class="location-changer" onchange="javascript:location.href = \'?loc=\' + this.value;">';
+  $vocabulary = taxonomy_vocabulary_machine_name_load('City');
+  $cities = entity_load('taxonomy_term', FALSE, array('vid' => $vocabulary->vid));
+  foreach($cities as $city) {
+    $selected = '';
+    if(!empty($_SESSION['selected_loc']) && $city->name == $_SESSION['selected_loc']) {
+      $selected = 'selected';
+    }
+    else if (!empty($_SESSION['smart_ip']['location']['city']) && empty($_SESSION['selected_loc']) && $city->name == $_SESSION['smart_ip']['location']['city']) {
+      $selected = 'selected';
+    }
+    $output .= '<option value="' . $city->name . '" ' . $selected . '>' . $city->name . '</option>';
+  }
+  $output .= '</select>';
+
+  return $output;
+}

@@ -1,0 +1,6 @@
+name = CeramicKart Module.
+description = Custom Integration/Modification.
+core = 7.x
+package = CeramicKart
+project = ceramickart
+files[] = ceramickart.module
