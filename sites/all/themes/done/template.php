@@ -991,6 +991,7 @@
 	}
 
 	function done_menu_link__main_menu(array $variables) {
+		global $base_url;
 
   		$element = $variables['element'];
 
@@ -1006,11 +1007,11 @@
 
 	  	if($element['#href'] == '<front>'){
 
-			$path = base_path();
+			$path = $base_url;
 
 		}else{
 
-			$path = drupal_get_path_alias($element['#href']);
+			$path = $base_url . '/' . drupal_get_path_alias($element['#href']);
 
 		}
 
